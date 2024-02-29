@@ -1,0 +1,218 @@
+repo_name: Khazbs/ai-game-engine
+report_id: fad51d3d78ef6156434bc26baca3b3e3
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:35:54+00:00'
+requested_by: roctbb
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Khazbs/ai-game-engine
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine
+  detection_source: Repo Metadata
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Denis Indenbom
+  last_updated_on: 2023-07-20 18:12:14.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-29 17:36:51.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-29 17:36:51.000000000 Z
+- name: gevent
+  description: Coroutine network library for Python
+  website_url: http://gevent.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1772/s9Bm2Iyx_400x400.jpg
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-30 20:28:45.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-29 17:36:51.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine
+  detection_source: Repo Metadata
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Denis Indenbom
+  last_updated_on: 2023-07-21 06:59:00.000000000 Z
+- name: Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  package_url: https://pypi.org/project/Flask-SQLAlchemy
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19941/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Denis Indenbom
+  last_updated_on: 2023-07-21 06:59:00.000000000 Z
+- name: dnspython
+  description: DNS toolkit
+  package_url: https://pypi.org/project/dnspython
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-30 20:28:45.000000000 Z
+- name: eventlet
+  description: Highly concurrent networking library
+  package_url: https://pypi.org/project/eventlet
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20017/default_70556f9333e0a39c148cac0c36ca24235943f270.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-30 20:28:45.000000000 Z
+- name: gevent-websocket
+  description: Websocket handler for the gevent pywsgi server
+  package_url: https://pypi.org/project/gevent-websocket
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-30 20:28:45.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-30 20:28:45.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Khazbs/ai-game-engine/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: roctbb
+  last_updated_on: 2023-06-29 17:36:51.000000000 Z
